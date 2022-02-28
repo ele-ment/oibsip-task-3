@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200&family=Hubballi&family=Oswald:wght@200&family=Redressed&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Hubballi';
+    font-size: 25px;
+    }
+
+    body {
+    
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-image:url("image10.jpg");
+    background-size: cover;
+    background-position: bottom;
+    }
+
+    form {
+    
+    padding: 80px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    
+    }
+    #Temperature_converter label{
+    font-size: 30px;
+    }
+
+    #temp {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    }
+
+    #diff {
+    background-color: #ffffff;
+    color: rgb(228, 188, 13);
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+    font-size: 15px;
+    vertical-align: top;
+    font-weight: bold;
+    }
+
+    
+
+    #resultContainer {
+    font-size: 30px;
+    }
+
+    button {
+        background-color: #ffffff;
+        color: #050505;
+        text-transform: uppercase;
+        font-weight: 10px;
+        letter-spacing: 2px;
+        padding: 8px 16px;
+        border-radius: 2px;
+        transition: 0.5s;
+        transition-property: background;
+    }
+
+    button:hover {
+        background: rgb(228, 188, 13);
+    }
+    
